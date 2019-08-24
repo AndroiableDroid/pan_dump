@@ -1,0 +1,131 @@
+====================签名开始 2019-04-03 13:03:43====================
+本次签名文件个数:1
+curl_result:201
+====================服务器签名开始 2019-04-03 13:03:44====================
+32108fae7012664d0cdb8312a2a74471.zip 文件下载成功
+Logging to /work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware/SecImage_log.txt
+
+
+    SecImage launched as: "/home/cibuild/workspace/SIGN_IN_WT/161923/sectools/sectools.py secimage -i out/target/product/T89571/vendor/firmware/a506_zap.elf -o out/target/product/T89571/vendor/firmware -c /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/config/sdm439_secimage/sdm439_secimage.xml -sa"
+
+Config path is set to: /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/config/sdm439_secimage/sdm439_secimage.xml
+Output dir is set to: /work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware
+Openssl v1.0.1 or greater is available at: "/usr/bin/openssl"
+------------------------------------------------------
+Processing 1/1: /work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware/a506_zap.elf
+
+l1_file_name = /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
+l2_file_name = /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
+l3_file_name = /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+/work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware/a506_zap.elf is already OEM-signed. Rerunning OEM sign.
+attestation_certificate_extensions = /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3_attest.ext
+ca_certificate_extensions = /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3.ext
+openssl_configfile = /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/opensslroot.cfg
+Using QTI HMAC for hash segment
+Using PKCS RSA padding
+Using a predefined Root certificate and a predefined key
+Key Used: /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/Signing/Local/T89571/hmd-qpst_rootca.key
+Certificate Used: /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/Signing/Local/T89571/hmd-qpst_rootca.cer
+Using a predefined Attestation CA certificate and a predefined key
+Key Used: /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/Signing/Local/T89571/hmd-qpst_attestca.key
+Certificate Used: /home/cibuild/workspace/SIGN_IN_WT/161923/sectools/resources/data_prov_assets/Signing/Local/T89571/hmd-qpst_attestca.cer
+Generating new Attestation certificate and a random key
+
+Attestation Certificate Properties:
+| SW_ID     | 0x0000000000000014  |
+| HW_ID     | 0x000BF0E100359571  |
+| DEBUG     | 0x0000000000000002  |
+| OEM_ID    | 0x0035              |
+| SW_SIZE   | 136                 |
+| MODEL_ID  | 0x9571              |
+| SHA_ALGO  | SHA256              |
+| APP_ID    | None                |
+| CRASH_DUMP| None                |
+| ROT_EN    | None                |
+| Exponent  | 3                   |
+| TCG_MIN   | None                |
+| TCG_MAX   | None                |
+
+Signed image is stored at /work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware/sdm439/gfx_microcode/a506_zap.elf
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+OEM signed image with PKCS
+Image /work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware/sdm439/gfx_microcode/a506_zap.elf signature is valid
+Image /work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware/sdm439/gfx_microcode/a506_zap.elf is not encrypted
+
+Base Properties: 
+| Integrity Check                 | True  |
+| Signed                          | True  |
+| Encrypted                       | False |
+| Size of signature               | 256   |
+| Size of one cert                | 2048  |
+| Num of certs in cert chain      | 3     |
+| Number of root certs            | 1     |
+| Maximum number of root certs    | 1     |
+| Hash Page Segments as segments  | False |
+| Cert chain size                 | 6144  |
+
+ELF Properties: 
+Elf Header: 
+| Magic                      | ELF                           |
+| Class                      | ELF32                          |
+| Data                       | 2's complement, little endian  |
+| Version                    | 1 (Current)                    |
+| OS/ABI                     | No extensions or unspecified   |
+| ABI Version                | 0                              |
+| Type                       | EXEC (Executable file)         |
+| Machine                    | 164                            |
+| Version                    | 0x1                            |
+| Entry address              | 0x00005000                     |
+| Program headers offset     | 0x00000034                     |
+| Section headers offset     | 0x00000000                     |
+| Flags                      | 0x00000003                     |
+| ELF header size            | 52                             |
+| Program headers size       | 32                             |
+| Number of program headers  | 1                              |
+| Section headers size       | 0                              |
+| Number of section headers  | 0                              |
+| String table section index | 0                              |
+
+Elf Program Headers: 
+| S.No | Type | Offset | VirtAddr | PhysAddr | FileSize | MemSize |   Flags   |   Align   |
+|------|------|--------|----------|----------|----------|---------|-----------|-----------|
+|  1   | LOAD | 0x3000 |  0x5000  |  0x5000  |  0x1454  |  0x1454 | 0x8000007 | 0x100000  |
+
+Hash Segment Properties: 
+| Header Size     | 40B     |
+| Hash Algorithm  | sha256  |
+
+Header: 
+| cert_chain_ptr  | 0x00007188  |
+| cert_chain_size | 0x00001800  |
+| code_size       | 0x00000060  |
+| flash_parti_ver | 0x00000003  |
+| image_dest_ptr  | 0x00007028  |
+| image_id        | 0x00000000  |
+| image_size      | 0x00001960  |
+| image_src       | 0x00000000  |
+| sig_ptr         | 0x00007088  |
+| sig_size        | 0x00000100  |
+
+SecElf Properties: 
+| image_type        | 0     |
+| max_elf_segments  | 100   |
+| testsig_serialnum | None  |
+
+------------------------------------------------------
+
+SUMMARY:
+Following actions were performed: "sign, validate"
+Output is saved at: /work/sign_server/SIGN_IN_WT/161923/unsigned_files/out/target/product/T89571/vendor/firmware
+
+| Idx |     SignId    | Parse | Integrity | Sign | Encrypt |              Validate              |
+|     |               |       |           |      |         | Parse | Integrity | Sign | Encrypt |
+|-----|---------------|-------|-----------|------|---------|-------|-----------|------|---------|
+|  1. | gfx_microcode |   T   |     NA    |  T   |    NA   |   T   |     T     |  T   |    F    |
+
+====================签名完毕 2019-04-03 13:04:14====================
+BIN out/target/product/T89571/vendor/firmware/signed/a506_zap.mdt
+BIN out/target/product/T89571/vendor/firmware/signed/a506_zap.b00
+BIN out/target/product/T89571/vendor/firmware/signed/a506_zap.b01
+BIN out/target/product/T89571/vendor/firmware/signed/a506_zap.b02

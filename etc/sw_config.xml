@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" platform="闻泰-nokia-深越-N5-SW9058">
+  <feature>
+    <key_emulation cname="按键功能开关" desc="默认：false" format="boolean">false</key_emulation>
+    <navigation cname="导航功能开关" desc="默认：false" format="boolean">true</navigation>
+    <unique_finger cname="重复手指录入判断开关" desc="默认：true" format="boolean">true</unique_finger>
+    <screenoff_diskey cname="黑屏禁止按键" default="true" desc="黑屏禁止按键,需要驱动提供event。默认：true" format="boolean" useable="false">false</screenoff_diskey>
+    <screenoff_disverify cname="黑屏禁止解锁" default="false" desc="黑屏禁止解锁,需要驱动提供event。默认：false" format="boolean" useable="false">false</screenoff_disverify>
+  </feature>
+  
+    
+   
+  
+  <diagnosis>
+    <img_invciper_data cname="导出原始图像" desc="需依赖 导出指纹图像。默认：false" format="boolean">false</img_invciper_data>
+    <data_dumping cname="导出指纹图像" desc="默认：false" format="boolean">false</data_dumping>
+    <log_level cname="调试信息等级" desc="LOG 打印等级。默认：LOG_LEVEL_INF" format="array" options="LOG_LEVEL_INF|LOG_LEVEL_ERR" values="2|3">2</log_level>
+  </diagnosis>
+  
+
+  
+  <solution>
+    <qsee_spi_id cname="QSEE SPI 设备号" default="6" desc="QSEE SPI 设备号。默认：QSEE_SPI_DEVICE_6" format="array" options="QSEE_SPI_DEVICE_1|QSEE_SPI_DEVICE_2|QSEE_SPI_DEVICE_3|QSEE_SPI_DEVICE_4|QSEE_SPI_DEVICE_5|QSEE_SPI_DEVICE_6|QSEE_SPI_DEVICE_7|QSEE_SPI_DEVICE_8|QSEE_SPI_DEVICE_9|QSEE_SPI_DEVICE_10|QSEE_SPI_DEVICE_11|QSEE_SPI_DEVICE_12" useable="true" values="1|2|3|4|5|6|7|8|9|10|11|12">7</qsee_spi_id>
+    
+    
+    
+  </solution>
+  
+</sunwave:Config>
+
