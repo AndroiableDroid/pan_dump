@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Information to grant permissions to Apps Orange service -->
+<permissions>
+    <privapp-permissions package="com.orange.update">
+        <permission name="android.permission.INSTALL_PACKAGES" />
+     </privapp-permissions>
+</permissions>
+
